@@ -6,10 +6,8 @@ namespace BengansBowlingBrawl.Models
 {
     class Serie
     {
-        public int Id { get; set; }
-        public Spelare Spelare1 { get; set; }
-        public Spelare Spelare2 { get; set; }
-        public Rond Rond1 { get; set; }
-        public Rond Rond2 { get; set; }
+        public int SerieId { get; set; }
+        public int PlayerOneScore { get; set; }
+        public int PlayerTwoScore { get; set; }
     }
 }

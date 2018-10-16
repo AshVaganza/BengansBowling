@@ -1,20 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BengansBowlingBrawl.Models
 {
     class Match
     {
-        public int Id { get; set; }
-        public Spelare Spelare1 { get; set; }
-        public Spelare Spelare2 { get; set; }
-        public List<Serie> Serier { get; set; }
-
-        public Spelare Vinnare()
+        public Match(Spelare playerOne, Spelare playerTwo)
         {
+            PlayerOne = playerOne;
+            PlayerTwo = playerTwo;
+        }
 
-            return null;
+        public int Id { get; set; }
+        public Spelare PlayerOne { get; set; }
+        public Spelare PlayerTwo { get; set; }
+        public List<Serie> Series { get; set; }
+
+        public string Winner
+        {
+            get
+            {
+                var playerOneTotalScore = Series.Sum(serie => serie.PlayerOneScore);
+                var playerTwoTotalScore = Series.Sum(serie => serie.PlayerTwoScore);
+
+                if (playerOneTotalScore == playerTwoTotalScore) return "Draw";
+                return playerOneTotalScore > playerTwoTotalScore ? PlayerOne.Name : PlayerTwo.Name;
+            }
         }
     }
 }
