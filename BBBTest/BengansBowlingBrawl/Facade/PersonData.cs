@@ -1,13 +1,22 @@
 ﻿using BengansBowlingBrawl.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace BengansBowlingBrawl.Facade
 {
     public class PersonData
     {
         public List<Spelare> DeltagarLista = new List<Spelare>();
+
+        public void AddPerson(string name)
+        {
+            var nyPerson = new Spelare()
+            {
+                Id = (medlemsLista().Count + 1),
+                Name = name
+            };
+
+            DeltagarLista.Add(nyPerson);
+        }
 
         public List<Spelare> medlemsLista()
         {

@@ -1,9 +1,7 @@
 ﻿using BengansBowlingBrawl.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BengansBowlingBrawl.BusinessLayer
+namespace BengansBowlingBrawl.Facade
 {
     public class GameLogic
     {
@@ -19,7 +17,7 @@ namespace BengansBowlingBrawl.BusinessLayer
         {
             var p1 = new Spelare();
 
-            //Antalet matcher spelat
+            //Antalet matcher spelade
             if (p1.Id >= 10)
             {
                 Console.WriteLine("Inte kvalificerad");
