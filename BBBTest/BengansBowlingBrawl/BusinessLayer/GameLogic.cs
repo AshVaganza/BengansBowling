@@ -15,6 +15,15 @@ namespace BengansBowlingBrawl.BusinessLayer
             var match = new Match(playerOne,playerTwo);
         }
 
-        public void ruleCheck() { }
+        public void ruleCheck()
+        {
+            var p1 = new Spelare();
+
+            //Antalet matcher spelat
+            if (p1.Id >= 10)
+            {
+                Console.WriteLine("Inte kvalificerad");
+            }
+        }
     }
 }
