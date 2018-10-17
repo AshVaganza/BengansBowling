@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BengansBowlingBrawl.Models
 {
-    class Cup
+    public class Cup
     {
         public int Id { get; set; }
         public List<Spelare> Spelare { get; set; }

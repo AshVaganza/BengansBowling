@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BengansBowlingBrawl.Models
 {
-    class Match
+    public class Match
     {
         public Match(Spelare playerOne, Spelare playerTwo)
         {

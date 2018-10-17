@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BengansBowlingBrawl.Facade
 {
-    class PersonData
+    public class PersonData
     {
         public List<Spelare> DeltagarLista = new List<Spelare>();
 

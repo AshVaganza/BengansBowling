@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BengansBowlingBrawl.BusinessLayer
 {
-    class GameLogic
+    public class GameLogic
     {
         public void newOpponentCheck()
         {
@@ -24,6 +24,11 @@ namespace BengansBowlingBrawl.BusinessLayer
             {
                 Console.WriteLine("Inte kvalificerad");
             }
+        }
+
+        public void getCupWinner()
+        {
+
         }
     }
 }
