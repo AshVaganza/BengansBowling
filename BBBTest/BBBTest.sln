@@ -7,15 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BBBTest", "BBBTest\BBBTest.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BengansBowlingBrawl", "BengansBowlingBrawl\BengansBowlingBrawl.csproj", "{8B1E691F-4753-4342-A6BF-028103FC2BD8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagram", "Diagram", "{D6D2F08D-DAFD-40E5-961B-4827677F4E92}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\ObjektAnalys\Diagram\ClassDiagram.pdf = ..\..\..\ObjektAnalys\Diagram\ClassDiagram.pdf
-		..\..\..\ObjektAnalys\Diagram\FlowDiagram.pdf = ..\..\..\ObjektAnalys\Diagram\FlowDiagram.pdf
-		..\..\..\ObjektAnalys\Diagram\SekvensDiagram.pdf = ..\..\..\ObjektAnalys\Diagram\SekvensDiagram.pdf
-		..\..\..\ObjektAnalys\Diagram\Use Case Diagram.pdf = ..\..\..\ObjektAnalys\Diagram\Use Case Diagram.pdf
-		..\..\..\ObjektAnalys\Diagram\Use cases.pdf = ..\..\..\ObjektAnalys\Diagram\Use cases.pdf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
