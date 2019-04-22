@@ -5,7 +5,16 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BBBTest", "BBBTest\BBBTest.csproj", "{803DD402-DF7A-4CF2-B2FD-780147D8EB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BengansBowlingBrawl", "BengansBowlingBrawl\BengansBowlingBrawl.csproj", "{8B1E691F-4753-4342-A6BF-028103FC2BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BengansBowlingBrawl", "BengansBowlingBrawl\BengansBowlingBrawl.csproj", "{8B1E691F-4753-4342-A6BF-028103FC2BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagram", "Diagram", "{D6D2F08D-DAFD-40E5-961B-4827677F4E92}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\ObjektAnalys\Diagram\ClassDiagram.pdf = ..\..\..\ObjektAnalys\Diagram\ClassDiagram.pdf
+		..\..\..\ObjektAnalys\Diagram\FlowDiagram.pdf = ..\..\..\ObjektAnalys\Diagram\FlowDiagram.pdf
+		..\..\..\ObjektAnalys\Diagram\SekvensDiagram.pdf = ..\..\..\ObjektAnalys\Diagram\SekvensDiagram.pdf
+		..\..\..\ObjektAnalys\Diagram\Use Case Diagram.pdf = ..\..\..\ObjektAnalys\Diagram\Use Case Diagram.pdf
+		..\..\..\ObjektAnalys\Diagram\Use cases.pdf = ..\..\..\ObjektAnalys\Diagram\Use cases.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

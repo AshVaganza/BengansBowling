@@ -15,6 +15,8 @@ namespace BengansBowlingBrawl.Facade
                 Name = name
             };
 
+            medlemsLista();
+
             DeltagarLista.Add(nyPerson);
         }
 
